@@ -1,5 +1,5 @@
 Algoritmo "Questão 9"
-
+// 0% de I.A. ela não vai fazer a prova por mim
 Var
    //vetor que armazena os valores lidos
    valores : vetor[1..50] de inteiro

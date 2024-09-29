@@ -15,7 +15,7 @@ Var
    b : real
 
 Inicio
-
+   //coleta os dados para a analise
    para x<- 1 ate 50 faca
       escreval("Aluno", x)
       escreva("Nome")
@@ -28,6 +28,7 @@ Inicio
       leia(altura[x])
    fimpara
 
+   //verifica se é uma mulher, e calcula a soma das alturas das mulheres
    para x<- 1 ate 50 faca
       se (sexo[x] = 2) entao
          somaf <- somaf + altura[x]
@@ -35,10 +36,13 @@ Inicio
       fimse
    fimpara
 
+   //soma todas as alturas coletadas
    para x<-1 ate 50 faca
       soma_Geral <- soma_Geral + altura[x]
    fimpara
 
+   //Ordena quem é o maior, e quem é o menor, ele é o último para evitar
+   //que interfora no outros resultados
    para x <- 1 ate 49 faca
       para  a <- x+1 ate 50 faca
          se(altura[x] > altura[a]) entao
@@ -49,15 +53,16 @@ Inicio
       fimpara
    fimpara
 
+   //calcula a média da altura feminina, e a geral
    Media_altura <-  somaf/ciclo
    media <- soma_Geral/50
 
    limpatela
-
+   //exibe os resultados
    escreval("resultados")
    escreval("------------------------")
    escreval("a maior altura é ", altura[a], " A menor altura é ", altura[1])
-   escreval("a média da altura das mulheres: ", Media_altura)
+   escreval("a média da altura das mulheres: " Media_altura)
    escreval("a média da altura da turma: ", media)
 
 

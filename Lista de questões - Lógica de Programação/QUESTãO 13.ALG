@@ -1,5 +1,5 @@
 Algoritmo "Questão 13"
-
+// 0% de I.A. ela não vai fazer a prova por mim
 Var
    ciclo, num, fatorial, x, termo :inteiro
 
@@ -7,7 +7,7 @@ Var
 Inicio
    escreval("Digite um valor que indica quantos termos serão lidos")
    leia(termo)
-   
+
    fatorial <- 1
 
    enquanto termo > ciclo faca

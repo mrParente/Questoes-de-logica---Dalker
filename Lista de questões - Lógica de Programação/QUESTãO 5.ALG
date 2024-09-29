@@ -1,12 +1,12 @@
 Algoritmo "Questão 5"
-
+// 0% de I.A. ela não vai fazer a prova por mim
 Var
    num, ciclo, total : inteiro
    media : real
 
 Inicio
-leia(num)
-total <- total + num
+   leia(num)
+   total <- total + num
 
    enquanto num > 0 faca
       leia(num)
@@ -15,11 +15,11 @@ total <- total + num
          num <- num * 0
          total <- total + num
       fimse
-          total <- total + num
+      total <- total + num
 
    fimenquanto
-      media <- total/ciclo
-      escreval(media)
+   media <- total/ciclo
+   escreval(media)
 
 
 
