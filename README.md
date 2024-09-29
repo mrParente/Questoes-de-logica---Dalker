@@ -1,2 +1,2 @@
 Aqui estão as 20 questões da atividade do Prof. Dalker Pinheiro
-aluno autor: Joel Damasceno Parente.
+alunos autores: Joel Damasceno Parente e Eduardo Martins de Souza
