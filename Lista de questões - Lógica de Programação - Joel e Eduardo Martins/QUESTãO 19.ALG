@@ -1,5 +1,5 @@
 Algoritmo "Questão 19"
-// 0% de I.A. ela não vai estar na prova comigo para fazer por mim
+// 0% de I.A. ela não vai fazer a prova por mim
 Var
    num, impar, par, ciclo, soma, somapar : inteiro
    mediapar, media: real

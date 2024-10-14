@@ -1,12 +1,13 @@
 Algoritmo "Questão 46"
+// 0% de I.A. ela não vai fazer a prova por mim
 
 Var
    //vetores que armazenam os dados das pessoas entrevistadas
-   nome : vetor[1..150] de caractere
-   olhos : vetor[1..150] de caractere
-   sexo : vetor[1..150] de caractere
-   cabelo : vetor[1..150] de caractere
-   idade : vetor[1..150] de inteiro
+   nome : vetor[1..500] de caractere
+   olhos : vetor[1..500] de caractere
+   sexo : vetor[1..500] de caractere
+   cabelo : vetor[1..500] de caractere
+   idade : vetor[1..500] de inteiro
 
    //variável que armazena a quantidade de mulheres que atendem ao que é pedido
    mulheres : inteiro
@@ -17,7 +18,7 @@ Var
 
 Inicio
    //loop para a coleta de dados
-   para x <- 1 ate 150 faca
+   para x <- 1 ate 500 faca
       escreval("Entrevistado", x)
       escreva("Nome: ")
       leia(nome[x])
@@ -36,7 +37,7 @@ Inicio
    fimpara
 
     //estrutura em loop que determina se há ou não mulheres que atemdem aos requisitos
-   para x <- 1 ate 150 faca
+   para x <- 1 ate 500 faca
 
       se ((idade[x] >= 18) e (idade[x] <= 35 ) e (olhos[x] = "V" ) e (cabelo[x] = "L" ) e (sexo[x] = "F" )) entao
          mulheres <- mulheres + 1
@@ -47,8 +48,8 @@ Inicio
 
    //loop para descobrir quem é o mais velho ordenando o vetor
    //o mais velho será o de indice a
-   para x <- 1 ate 149 faca
-      para  a <- x+1 ate 150 faca
+   para x <- 1 ate 499 faca
+      para  a <- x+1 ate 500 faca
 
          se(idade[x] > idade[a]) entao
             b <- idade[x]

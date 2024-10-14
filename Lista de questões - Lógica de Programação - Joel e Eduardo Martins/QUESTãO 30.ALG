@@ -1,4 +1,5 @@
 Algoritmo "Questão 30"
+// 0% de I.A. ela não vai fazer a prova por mim
 
 Var
    x : inteiro

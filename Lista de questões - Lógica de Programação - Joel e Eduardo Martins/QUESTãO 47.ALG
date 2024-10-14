@@ -1,5 +1,6 @@
 Algoritmo "questão 47"
 
+// 0% de I.A. ela não vai fazer a prova por mim
 Var
 //armazena o nome dos clientes
  clientes: vetor[1..150] de caractere
